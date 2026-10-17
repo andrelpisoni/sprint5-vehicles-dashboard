@@ -31,4 +31,4 @@ build_hist = st.checkbox('Criar um histograma')
 if build_hist: # se a caixa de seleção for selecionada
             st.write('Criando um histograma para a coluna odometer')
             fig_3 = px.histogram(df_vehicles, x='odometer')
-            st.plotly_chart(fig_3, key='histogram', use_container_width=True git add .)
+            st.plotly_chart(fig_3, key='histogram', use_container_width=True)
